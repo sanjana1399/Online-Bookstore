@@ -1,0 +1,196 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>ADMIN NEW-BOOK FORM</title>
+<style>
+body
+{	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url("dishbg1.jpg") no-repeat;
+	background-size: cover;
+	left: 30%;
+}
+.login-box
+{	font-family: sans-serif;
+	left:70%;
+	top: 5%;
+	height: 80%;
+	width: 360px;
+	position: absolute;
+	<!-- transform: translate(+170%,+0%); -->
+	color: white;
+	background-color: black;
+	opacity: 0.65;
+	height: 100%;
+	text-align: center;
+}
+.login-box{
+	color:white;
+}
+
+
+.textbox
+{	left:30%;
+	width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+	padding: 8px 0;
+	margin-bottom: 8px 0;
+	border-bottom: 1px solid #4caf50;
+	vertical-align: middle; 
+	color:white;
+}
+.textbox input
+{	font-family: sans-serif;
+	border: none;
+	outline: none;
+	color: black;
+	font-size: 18px;
+	width: 80%;
+	margin: 2px 10px;
+	vertical-align: middle;
+}
+.BACK
+{  
+background-color: #41c6f4; 
+opacity: 0.85; 
+border: none;  
+color: white;  
+padding: 15px 32px;  
+text-align: center;  
+text-decoration: none;  
+display: inline-block;  
+font-size: 16px;
+margin: 4px 2px;  
+font-size: 24px;
+border-radius: 12px;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+cursor: pointer;	
+}
+
+.login-box input[type="submit"] {
+
+display: block;
+margin: 10px auto;
+color: MistyRose;
+background: #330033;
+padding: 14px 40px;
+border-radius: 15px;
+cursor:pointer;
+font-family: serif;
+font-size: 1.25em;
+opacity:1;
+
+}
+.login-box input[type="submit"]:hover{
+border: 1px solid #888;
+ background-color: #ddd;
+color:black;
+}
+h1{
+font-family: courier;
+color: #ff9966;
+font-size: 2.8em;
+padding: 10px 130px;
+}
+h2{
+font-family:verdana;
+color: #ccb3ff;
+padding: 10px 60px;
+font-size: 3em;
+letter-spacing: 0.3em;
+}
+h3{
+font-family: courier;
+padding: 20px 40px;
+color: #df9fbf;
+font-size: 2.5em;
+
+}
+</style>
+<head>
+<a href="adminpg.html"><button class="BACK">BACK</button></a>
+</head>
+
+<body>
+
+
+
+<br>
+<div class="intro3">
+<h1><strong>INSERT NEW BOOK</strong></h1>
+
+</div>
+<br>
+<form action ="newbook.php" method ="POST" align="center" class="login-box">
+<div class="textbox">
+
+<br>
+<label for = "isbn">Isbn</label>
+<br>
+<input type = "text" name = "isbn" id = "isbn">
+
+<div class="textbox">
+
+<br>
+<label for = "title">Title</label>
+<br>
+<input type = "text" name = "title" id = "title">
+
+<div class="textbox">
+
+<br>
+<label for = "author">Author</label>
+<br>
+<input type = "text" name = "author" id = "author">
+
+<div class="textbox">
+
+<br>
+<label for = "publisher">Publisher</label>
+<br>
+<input type = "text" name = "publisher" id = "publisher">
+
+<div class="textbox">
+
+<br>
+<label for = "price">PRICE</label>
+<br>
+<input type = "number" name = "price" id = "price">
+
+
+<div class="textbox">
+
+<br>
+<label for = "bookid">BOOK ID</label>
+<br>
+<input type = "number" name = "bookid" id = "bookid">
+
+<div class="textbox">
+
+<br>
+<label for = "availability">AVAILABILITY</label>
+<br>
+<input type = "number" name = "availability" id = "availability">
+
+<div class="textbox">
+<br>
+<label for = "category">CATEGORY</label>
+<br>
+<input type = "text" name = "category" id = "category">
+<br>
+<div class="textbox">
+
+</body>
+<p>
+<div class = "submitbutton">
+<input type = "submit" onclick="location.href='newbook.php'"value="SUBMIT" >
+
+</div>
+
+<!--class="button">SUBMIT</button></a-->
+</p>
+</html>

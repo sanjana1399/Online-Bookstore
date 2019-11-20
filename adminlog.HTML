@@ -1,0 +1,104 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SIGN-IN FORM</title>
+<style>
+body
+{	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url("dishbg1.jpg") no-repeat;
+	background-size: cover;
+	left: 30%;
+}
+.login-box
+{	left:70%;
+	width: 360px;
+	position: absolute;
+	<!-- transform: translate(+170%,+0%); -->
+	color: white;
+	background-color: #392613;
+	opacity: 0.85;
+	height: 100%;
+	text-align: center;
+}
+.login-box{
+	color:white;
+}
+.login-box h1
+{
+	font-size: 30px;
+	border-bottom: 5px solid #4caf50;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	color: white;
+}
+.login-box h2
+{	
+	font-size: 25px;
+	border-bottom: 4px solid white;
+	margin-bottom: 50px;
+	padding: 13px 0;
+	vertical-align: middle;
+}
+.login-box input[type="text"], .login-box input[type="password"]{
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 1px solid black;
+padding: 10px 20px;
+width: 175px;
+color: indianred;
+border-radius: 10px;
+}
+
+
+.bk input[type="submit"]{
+display: block;
+margin: 10px auto;
+color: MistyRose;
+background: black;
+padding: 14px 10px;
+border-radius: 15px;
+cursor:pointer;
+font-family: serif;
+font-size: 1.25em;
+opacity:1;
+}
+.bk input[type="button"]{
+display: block;
+margin: 10px auto;
+color: MistyRose;
+background: black;
+padding: 14px 10px;
+border-radius: 15px;
+cursor:pointer;
+font-family: serif;
+font-size: 1.25em;
+opacity:1;
+}
+
+</style>
+<head>
+<br><br>
+<title>Admin login</title>
+</head>
+<body>
+<form action= "LVA.php" method ="POST" align="center" class="login-box" >
+<p align="center"><strong>ADMINISTRATOR PAGE</strong></p>
+<p align="center"><strong> LOGIN AS ADMIN<strong> </p>
+<br>
+<br>
+<input type = "text" name = "username" placeholder = "username">
+<input type = "password" name = "pass" placeholder = "password">
+<br>
+<br>
+</body>
+<p class="bk">
+<input type = "submit" onclick="location.href='adminpg.html'"value=" SUBMIT" >
+<br>
+<input type = "button" onclick="location.href='MAINPG.html'"value=" BACK" >
+</p>
+</html>

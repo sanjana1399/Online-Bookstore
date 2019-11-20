@@ -1,0 +1,59 @@
+body{
+background-image:url("dishbg1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.buttonlogout{
+background-color: #301601; 
+opacity: 0.85; 
+border: none;  
+color: white;  
+padding: 15px 32px;  
+text-align: center;  
+text-decoration: none;  
+display: inline-block;  
+font-size: 16px;
+margin: 4px 2px;  
+font-size: 24px;
+border-radius: 12px;
+cursor: pointer;
+right: 70%;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button 
+{  
+background-color: #301601; 
+opacity: 0.85; 
+border: none;  
+color: white;  
+padding: 15px 32px;  
+text-align: center;  
+text-decoration: none;  
+display: inline-block;  
+font-size: 16px;
+margin: 4px 2px;  
+font-size: 24px;
+border-radius: 12px;
+right: 70%;
+cursor:pointer;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover{
+border: 1px solid #888;
+ background-color: #ddd;
+}
+.buttonlogout:hover{
+border: 1px solid #888;
+ background-color: #ddd;
+}
+
+.buttons
+{
+left: 70%;
+}
+.head
+{
+color: white;
+font-family: sans-serif;
+align: center;
+}

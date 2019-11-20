@@ -1,0 +1,54 @@
+body{
+font-family: sans-serif;
+background-image: url("pic4.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+background-color: rgba(50, 115, 220, 0.3);
+}
+h2{
+font-family:verdana;
+color: #ccb3ff;
+padding: 10px 60px;
+font-size: 3em;
+letter-spacing: 0.3em;
+}
+.box{
+width: 300px;
+padding: 50px;
+position: absolute;
+left:70%;
+height: 60%;
+background-color: #392613;
+text-align: center;
+opacity: 0.85;
+}
+.box h1{
+color:white;
+opacity: 1;
+}
+.box input[type="text"], .box input[placeholder="password"]{
+display: block;
+margin: 20px auto;
+text-align: center;
+border: 1px solid black;
+padding: 10px 20px;
+width: 175px;
+color: indianred;
+border-radius: 10px;
+}
+.sub input[type="submit"]{
+display: block;
+margin: 10px auto;
+color: MistyRose;
+background: black;
+padding: 14px 40px;
+border-radius: 15px;
+cursor:pointer;
+font-family: serif;
+font-size: 1.25em;
+opacity:1;
+left: 30%;
+top: 340px;
+position: absolute;
+}
